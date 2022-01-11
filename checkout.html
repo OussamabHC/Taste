@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contact Us </title>
+        <!-- Box Icons -->
+        <link rel="stylesheet"
+        href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+         <!-- Link To CSS -->
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <section style="padding: 0;">
+        <header>
+            <a href="index.html"><img src="images/logolight.png" id="logo" alt=""></a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-us.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="index.html#services">Service</a></li>
+                <li><a href="contact-us.html">Contact</a></li>
+            <!-- Dark Mode -->
+                <div class="bx bx-moon" id="darkmode"></div>
+            </ul>
+        </header>
+    </section>
+
+    <!-- Checkout Section -->
+    <section class="checkout" id="checkout" style="padding: 50px 5%";>
+        <div class="checkout-container">
+            <div class="checkout-input">
+                <h2>Billing Address</h2>
+                    <label for="Flname"><i class="bx bxs-user"></i> Full Name
+                    <input id="Flname" type="text" placeholder="Your Full Name"></label>
+    
+                    <label for="Ph-number"><i class="bx bxs-phone"></i> Phone Number
+                    <input id="Ph-number" type="text" placeholder="+212 XX XX-XX XX"></label>
+    
+                    <label for="Del-address"><i class="bx bxs-map"></i> Delivery Address
+                    <input id="Del-address" type="text" placeholder="Your Current Location"></label>
+    
+                    <label for="City"><i class="bx bxs-city"></i> City
+                    <input id="City" type="text" placeholder="Your City"></label>
+    
+                    <label for="Postal-code">Postal Code
+                    <input id="Postal-code" type="text" placeholder="Area's Postal Code"></label>
+            </div>
+            <div class="checkout-input">
+                <h2>Payment Infos</h2>
+                <label for="">Accepted Payment Methods :</label>
+                <div class="icons-container">
+                    <i class="bx bxl-paypal" style="color: var(--icon-color);"></i>
+                    <i class="bx bxl-mastercard" style="color: orangered;"></i>
+                    <i class="bx bxl-visa" style="color: var(--icon-color);"></i>
+                </div>
+    
+                <label for="Card-name"><i class="bx bxs-id-card"></i> Cardholder Name
+                <input id="Card-name" type="text" placeholder="Cardholder Full Name"></label>
+                
+                <label for="Card-number"><i class="bx bxs-credit-card"></i> Card Number
+                <input id="Card-number" type="text" placeholder="16 Digit Card Number"></label>
+                
+                <label for="Expiry-date"> Expiration Date
+                <input id="Expiry-date" type="text" placeholder="Mth/Year"></label>
+    
+                <label for="Security-code"> Security Code
+                <input id="Security-code" type="text" placeholder="Cvv Code"></label> 
+                
+                <a href="thank-you.html" class="btn">Confirm</a>
+            </div>
+            <div class="checkout-input">
+                <img src="images/checkout.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="contact" id="contact">
+        <div class="contact-box">
+            <h3>Social Media</h3>
+            <span>Connect With Us</span>
+            <div class="social">
+                <a href="#"><i class='bx bxl-facebook' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+            </div>
+        </div>
+        <div class="contact-box">
+            <h3>Menu Links</h3>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about-us.html">About</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="index.html#services">Service</a></li>
+            <li><a href="contact-us.html">Contact</a></li>
+        </div>
+        <div class="contact-box">
+            <h3>Quick Links</h3>
+            <li><a href="#Contact">Contact</a></li>
+            <li><a href="#Privacy Policy">Privacy Policy</a></li>
+            <li><a href="#Disclaimer">Disclaimer</a></li>
+            <li><a href="#Terms Of Use">Terms Of Use</a></li>
+        </div>
+        <div class="contact-box address">
+            <h3>Contact infos</h3>
+            <i class='bx bxs-map' ><span>97 Rue Ibnou Mounir Quartier Maarif, Casablanca</span></i>
+            <i class='bx bxs-phone' ><span>+212 5050 9999</span></i>
+            <i class='bx bxs-envelope' ><span>Example@email.com</span></i>
+        </div>
+    </section>
+
+    <!-- Copyright -->
+    <div class="copyright">
+        <p>&#169; Taste All Rights Reserved.</p>
+    </div>
+
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Link To JavaScript -->
+    <script src="main.js"></script>
+</body>
+</html>
